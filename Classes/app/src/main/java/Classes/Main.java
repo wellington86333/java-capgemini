@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Pessoa objetoPessoa = new Pessoa();
+        Pessoa objetoPessoa = new Pessoa(70.0f, 1.70f);
 
         Scanner leitorScanner = new Scanner(System.in);
         System.out.println("Digite o peso da pessoa: ");
